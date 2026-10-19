@@ -1,9 +1,30 @@
 {
   "$comment": "AUTO by scripts/verify-adopters.mjs — every ADOPTERS.md evidence link re-checked against GitHub. Do not edit by hand.",
-  "verified_at": "2026-10-12",
+  "verified_at": "2026-10-19",
   "total": 36,
-  "ok": 35,
+  "ok": 32,
   "drift": [
+    {
+      "name": "Cisco a2a-scanner",
+      "declared": "in-review",
+      "observed": "closed",
+      "content": null,
+      "evidence": "https://github.com/cisco-ai-defense/a2a-scanner/pull/14"
+    },
+    {
+      "name": "e2b-dev/awesome-ai-agents",
+      "declared": "in-review",
+      "observed": "closed",
+      "content": null,
+      "evidence": "https://github.com/e2b-dev/awesome-ai-agents/pull/959"
+    },
+    {
+      "name": "e2b-dev/awesome-ai-sdks",
+      "declared": "in-review",
+      "observed": "closed",
+      "content": null,
+      "evidence": "https://github.com/e2b-dev/awesome-ai-sdks/pull/194"
+    },
     {
       "name": "xlabs-club/awesome-x-ops",
       "declared": "shipped",
@@ -239,9 +260,9 @@
       "evidence": "https://github.com/cisco-ai-defense/a2a-scanner/pull/14",
       "declared": "in-review",
       "kind": "pr",
-      "observed": "open",
+      "observed": "closed",
       "content": null,
-      "ok": true
+      "ok": false
     },
     {
       "name": "killertcell428/aigis",
@@ -269,9 +290,9 @@
       "evidence": "https://github.com/e2b-dev/awesome-ai-agents/pull/959",
       "declared": "in-review",
       "kind": "pr",
-      "observed": "open",
+      "observed": "closed",
       "content": null,
-      "ok": true
+      "ok": false
     },
     {
       "name": "e2b-dev/awesome-ai-sdks",
@@ -279,9 +300,9 @@
       "evidence": "https://github.com/e2b-dev/awesome-ai-sdks/pull/194",
       "declared": "in-review",
       "kind": "pr",
-      "observed": "open",
+      "observed": "closed",
       "content": null,
-      "ok": true
+      "ok": false
     },
     {
       "name": "CryptoAILab/Awesome-LM-SSP",
